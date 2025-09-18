@@ -8,6 +8,14 @@ from PIL import Image
 import gc
 import time
 
+# Add the missing progress bar initialization function
+def init_comfyui_progress():
+    """
+    Initialize ComfyUI progress bar system for this module.
+    This function is called by ComfyUI's progress bar system.
+    """
+    pass  # No special initialization needed for our progress implementation
+
 class Video_Upscale_With_Model:
     """
     A memory-efficient implementation for upscaling video frames using an upscale model

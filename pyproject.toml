@@ -1,0 +1,14 @@
+[project]
+name = "videoupscale_withmodel"
+description = "A memory-efficient implementation for upscaling videos in ComfyUI using non-diffusion upscaling models. This custom node is designed to handle large video frame sequences without memory bottlenecks."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-VideoUpscale_WithModel"
+Icon = ""
